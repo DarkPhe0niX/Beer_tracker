@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="c:\Users\91766\Downloads\early_gameboy\Early GameBoy.ttf" rel = "fontsmet">
+
+</head>
+<body>
+    <h1>Beer Tracker</h1>
+    <br/>
+    
+    <p class="plead">Plead a favour</p>
+
+    <!-- Form for submitting new favors -->
+    <!-- <form id="favorForm" action="fetch_favors.php" method="POST"> -->
+    <form id="favorForm">    
+
+        <input type="date" id="date" name="date" required> <br>
+
+        <input type="text" id="description" name="description" placeholder="Point of Favour" required><br>
+
+        <input type="text" id="recipient" name="recipient" placeholder="Peasant" required><br>
+
+        <input type="text" id="favorDoer" name="favorDoer" placeholder="Patron" textarea required><br>
+
+        <input type="number" id="beersOwed" name="beersOwed" placeholder="Beers Owed" required><br>
+
+        <input type="hidden" name="submit" value="true">
+        <button type="submit"> Submit Favor </button>
+    </form>
+
+    <!-- Display list of favors in a grid -->
+        <h2>Favors List</h2>
+        <table id="favorsList">
+            <thead>
+                <div>
+                    <div class="frame-2608903">
+                    <div class="date">Date</div>
+                    <div class="point-of-favour">Point of favour</div>
+                    <div class="patron">Patron</div>
+                    <div class="beers-owned">Beers owned</div>
+                    <div class="peasant">Peasant</div>
+                    <div class="line-1"></div>
+                    <div class="line-5"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                    <div class="line-4"></div>
+                  </div>
+
+                </div>
+            </thead>
+            <tbody>
+    
+
+
+            </tbody>
+        </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="main.js"></script>
+    <script src="index.js"></script>
+  
+</body>
+</html>

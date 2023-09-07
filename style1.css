@@ -1,0 +1,228 @@
+#date,#date::placeholder {
+    color: #C2E2FF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+#description{
+    color: #D5C3F2;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+border-radius: 8px;
+border: 1px solid #D5C3F2;
+}
+#description::placeholder{
+    color: #D5C3F2;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+#recipient{
+    color: #FFCECE;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+border-radius: 8px;
+border: 1px solid #FFCECE;
+}
+#recipient::placeholder{
+    color: #FFCECE;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+#favorDoer{
+border-radius: 8px;
+border: 1px solid #D2FDBB;
+color: #D2FDBB;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+#favorDoer::placeholder{
+    color: #D2FDBB;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+#beersOwed{
+border-radius: 8px;
+border: 1px solid #FDBE17;
+color: #FDBE17;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+#beersOwed::placeholder{
+    color: #FDBE17;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+::placeholder{
+    text-align: center;
+}
+.plead{
+    color: #FFE7AB;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.frame-2608903,
+.frame-2608903 * {
+  box-sizing: border-box;
+}
+.frame-2608903 {
+  background: #000000;
+  border-radius: 8px;
+  width: 1320px;
+  height: 36px;
+  position: relative;
+  overflow: hidden;
+}
+.date {
+  color: #c2e2ff;
+  text-align: left;
+  font: 600 16px "Inter", sans-serif;
+  position: absolute;
+  left: 31px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.point-of-favour {
+  color: #d5c3f2;
+  text-align: left;
+  font: 600 16px "Inter", sans-serif;
+  position: absolute;
+  left: 168px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.patron {
+  color: #d2fdbb;
+  text-align: left;
+  font: 600 16px "Inter", sans-serif;
+  position: absolute;
+  left: 881px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.beers-owned {
+  color: #fdbe17;
+  text-align: left;
+  font: 600 16px "Inter", sans-serif;
+  position: absolute;
+  left: 1112px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.peasant {
+  color: #ffcece;
+  text-align: left;
+  font: 600 16px "Inter", sans-serif;
+  position: absolute;
+  left: 660px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #bebebe;
+  border-width: 1px 0 0 0;
+  width: 36px;
+  height: 0px;
+  position: absolute;
+  left: 139px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-5 {
+  border-style: solid;
+  border-color: #bebebe;
+  border-width: 1px 0 0 0;
+  width: 36px;
+  height: 0px;
+  position: absolute;
+  left: 139px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-2 {
+  border-style: solid;
+  border-color: #bebebe;
+  border-width: 1px 0 0 0;
+  width: 36px;
+  height: 0px;
+  position: absolute;
+  left: 632px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-3 {
+  border-style: solid;
+  border-color: #bebebe;
+  border-width: 1px 0 0 0;
+  width: 36px;
+  height: 0px;
+  position: absolute;
+  left: 852px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-4 {
+  border-style: solid;
+  border-color: #bebebe;
+  border-width: 1px 0 0 0;
+  width: 36px;
+  height: 0px;
+  position: absolute;
+  left: 1086px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: black;   
+}
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login{
+    margin-left: 1280px;
+    margin-top: 30px;
+}
+h1 {
+    color: #F4D160;
+}
+/* button .submit {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+} */
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border: white solid 2px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #5C8374;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f7f7f7;
+}
+label{
+    color: #93B1A6 ;
+    text-align: left;
+    padding-right: 10px;
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+#date{
+    text-align: center;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 8px;
+    text-indent: 15px;
+    text-transform: uppercase;
+}
+#description{
+    text-align: center;
+}
+#beersOwed{
+    text-align: center;
+}
+#favorDoer{
+    text-align: center;
+}
+#recipient{
+    text-align: center;
+}
+h2{
+    color: #F4D160;
+}
+.smeet{
+    color: #93B1A6;
+    display: flex;
+    gap: 60px;
+    width: auto;    
+    justify-content: center;
+}
+tbody{
+    width: 100%;
+}
+tr {
+    display: grid;
+    width: 1320px;
+    grid-template-columns:150px 500px 220px 240px 190px;
+    grid-template-rows: auto;
+    color: #F4D160;
+    text-align: left;
+}
+
+input{
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #C2E2FF;
+    background-color: #040D12;
+}
+
+
+/* input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+} */
